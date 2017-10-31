@@ -11,7 +11,7 @@ module.exports = {
         es6: true
     },
     // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
-    //extends: 'standard', //扩展，可以通过字符串或者一个数组来扩展规则
+    // extends: 'standard', //扩展，可以通过字符串或者一个数组来扩展规则
     // required to lint *.vue files
     plugins: [
         'html' //插件，此插件用于识别文件中的js代码，没有MIME类型标识没有script标签也可以识别到，因此拿来识别.vue文件中的js代码
