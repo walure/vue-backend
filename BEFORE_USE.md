@@ -11,8 +11,8 @@
 
 ``` bash
 # 针对不能直连外网的环境需设置npm代理，username和password为你平时的上网账号和密码
-npm config set proxy="http://username:password@proxy.neusoft.com:8080"
-npm config set https-proxy="http://username:password@proxy.neusoft.com:8080"
+npm config set proxy="http://username:password@your.proxy:port"
+npm config set https-proxy="http://username:password@your.proxy:port"
 
 # 如果由于墙的原因导致访问国外服务器速度过慢，则可考虑进行以下设置
 npm config set registry "https://registry.npm.taobao.org"
