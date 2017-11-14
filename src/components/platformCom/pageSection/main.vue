@@ -1,6 +1,6 @@
 <template>
-    <div class="page-section" >
-        <div class="title" v-once>
+    <div class="page-section">
+        <div class="title">
             <strong>{{title}}</strong>
         </div>
         <slot></slot>
