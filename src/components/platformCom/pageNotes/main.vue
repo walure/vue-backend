@@ -1,6 +1,6 @@
 <!-- 引用或解释说明组件 -->
 <template>
-    <div class="page-notes" v-once>
+    <div class="page-notes">
         <slot></slot>
     </div>
 </template>

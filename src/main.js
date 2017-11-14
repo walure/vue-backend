@@ -9,7 +9,6 @@ import store from './store'
 import axios from './util/ajax'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
-// import 'highlight.js/styles/default.css'
 import i18n from './util/i18n'
 import App from './index'
 // 全局组件
