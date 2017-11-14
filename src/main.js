@@ -1,7 +1,7 @@
 // 引入babel编译环境
 import 'babel-polyfill'
 // 引入Mock
-import './mock/index.js'
+import '../mock/index.js'
 // 框架引入
 import Vue from "vue"
 import router from './router'
