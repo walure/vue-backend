@@ -6,7 +6,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import store from '../store'
-// import lodash from 'lodash'
 import Cookies from 'js-cookie'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
@@ -102,7 +101,7 @@ const routes = [{
 const router = new VueRouter({
     mode: 'history',
     routes: routes
-});
+})
 
 // 路由跳转前验证
 router.beforeEach((to, from, next) => {
@@ -160,6 +159,6 @@ router.beforeEach((to, from, next) => {
 
 router.afterEach(() => {
     NProgress.done(); // 结束Progress
-});
+})
 
 export default router
